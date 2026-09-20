@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">提醒闹钟</string>
+    <string name="add_alarm">添加闹钟</string>
+    <string name="edit_alarm">编辑闹钟</string>
+    <string name="empty_alarms">还没有闹钟\n点击右下角 + 添加一个</string>
+    <string name="label">标签</string>
+    <string name="repeat">重复</string>
+    <string name="interval_title">再次响铃间隔(分钟)</string>
+    <string name="interval_explain">响铃后,如果只按“停止铃声”而不关闭本次闹钟,系统会每隔上面的间隔时间自动再次响铃,直到你进入 App 在闹钟列表中关闭本次闹钟为止。</string>
+    <string name="save">保存</string>
+    <string name="delete">删除此闹钟</string>
+    <string name="once">仅一次</string>
+    <string name="every_day">每天</string>
+    <string name="action_stop_ring">停止铃声</string>
+    <string name="notif_ringing">正在响铃 · 打开应用可关闭本次闹钟</string>
+    <string name="notif_pending_title">闹钟尚未关闭</string>
+    <string name="notif_pending_text">约 %1$d 分钟后再次响铃 · 打开应用可关闭</string>
+    <string name="alert_note">停止铃声后每 %1$d 分钟会再次响铃\n请进入 App 在闹钟列表中关闭本次闹钟</string>
+    <string name="alert_stop_ring">停止铃声(稍后自动再响)</string>
+    <string name="banner_ringing">正在响铃</string>
+    <string name="banner_muted">已停止铃声 · 约 %1$d 分钟后再次响铃</string>
+    <string name="banner_stop">停止铃声</string>
+    <string name="banner_dismiss">关闭本次闹钟</string>
+    <string name="dialog_delete_title">删除闹钟?</string>
+    <string name="dialog_delete_msg">删除后无法恢复</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="exact_alarm_dialog_title">需要精确闹钟权限</string>
+    <string name="exact_alarm_dialog_msg">为了准点响铃,请在系统设置中允许本应用使用“闹钟和提醒”权限。</string>
+    <string name="open_settings">去设置</string>
+    <string name="next_prefix">下次</string>
+    <string name="today">今天 %1$s</string>
+    <string name="tomorrow">明天 %1$s</string>
+    <string name="disabled">已停用</string>
+    <string name="ringing_now">● 正在提醒</string>
+    <string name="waiting">● 等待重响</string>
+    <string name="meta_interval">每 %1$d 分钟重响</string>
+    <string name="ringtone_label">铃声</string>
+    <string name="ringtone_default">系统默认铃声</string>
+    <string name="ringtone_silent">无声(仅震动)</string>
+    <string name="ringtone_pick_system">系统铃声</string>
+    <string name="ringtone_pick_file">本地音乐文件</string>
+    <string name="ringtone_pick_silent">无声(仅震动)</string>
+    <string name="ringtone_picker_title">选择铃声</string>
+    <string name="saved">已保存</string>
+    <string name="channel_ringing">闹钟响铃</string>
+    <string name="channel_pending">待重响提醒</string>
+    <string name="battery_guide_title">电池优化白名单</string>
+    <string name="battery_status_ok">✓ 已加入白名单,闹钟可准点响铃</string>
+    <string name="battery_status_bad">⚠ 未加入白名单,深度休眠时响铃可能被延迟</string>
+    <string name="battery_guide_explain">系统的电池优化(Doze)会在手机息屏休眠时限制后台唤醒。将本应用加入电池优化白名单(允许后台运行)后:\n\n· 闹钟在息屏、深度休眠下仍能准点响铃\n· “每 X 分钟自动重响”不会被省电机制打断\n· 响铃服务不会被系统后台清理</string>
+    <string name="battery_guide_request">去设置</string>
+    <string name="battery_guide_done">完成</string>
+    <string name="battery_guide_oem_title">国产手机额外建议</string>
+    <string name="battery_guide_oem_tips">1. 系统设置 → 应用管理 → 提醒闹钟 → 开启「自启动」\n2. 应用信息 → 耗电管理 / 省电策略 → 设为「无限制」\n3. 在最近任务界面下拉锁定本应用\n\n(不同品牌的路径略有差异,关键词:自启动、后台运行、省电策略)</string>
+    <string name="battery_guide_request_done">已加入白名单</string>
+    <string name="day_sun">周日</string>
+    <string name="day_mon">周一</string>
+    <string name="day_tue">周二</string>
+    <string name="day_wed">周三</string>
+    <string name="day_thu">周四</string>
+    <string name="day_fri">周五</string>
+    <string name="day_sat">周六</string>
+
+    <string-array name="week_days">
+        <item>周日</item>
+        <item>周一</item>
+        <item>周二</item>
+        <item>周三</item>
+        <item>周四</item>
+        <item>周五</item>
+        <item>周六</item>
+    </string-array>
+</resources>
